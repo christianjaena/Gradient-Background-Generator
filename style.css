@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to right, red, blue);
+    font-family: 'century gothic';
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin-top: 5rem;
+    color: #111;
+}
+
+h3 {
+    font-family: consolas;
+}
+
+h4 {
+    margin: 2rem;
+}
+
+input {
+    margin: 3rem 2rem 4rem 2rem;
+    height: 2rem;
+    width: 5rem;
+}
+
+button {
+    background-color:#111;
+    color: #eee;
+    height: 5rem;
+    width: 10rem;
+    border: none;
+    text-transform: uppercase;
+    font: 1.5rem 'century gothic';
+    border-radius: 35px;
+    outline: none;
+   
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 100ms ease-in-out;
+}
